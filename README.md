@@ -1,5 +1,4 @@
 # Image Load callbacks using jQuery#
-jQuery plugin that allows to defer image loads &amp; provides callbacks
 This is a light-weight jquery plugin that allows you load images asynchronously and provides callback for them. In addition it allows to defer the loading images resulting in faster page load time.
 
 ##Requirements##

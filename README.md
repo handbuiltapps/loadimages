@@ -30,7 +30,7 @@ $('.parent').hbaLoadImages({
     //Deafults to false
     onSuccess: function(source, element) {
         //Code to be executed when an image has loaded successfully.
-        //source: Contains the image path that loaded
+        //source: Contains the image path that was loaded
         //element: Contains the image element that was processed
     },
     onError: function(message, source, element) {
@@ -40,7 +40,7 @@ $('.parent').hbaLoadImages({
     onComplete: function(source, element) {
         //Code to be executed when each image has been processed.
     },
-    onQueueComplete: function(source, element) {
+    onQueueComplete: function() {
         //Code to be executed once when all the images in the queue has been processed.
     }
 });
